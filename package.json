@@ -1,0 +1,38 @@
+{
+  "name": "imdbapi-reactjs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.1",
+    "cheerio": "^1.0.0-rc.2",
+    "react": "^16.8.4",
+    "react-css-loaders": "0.0.5",
+    "react-dom": "^16.8.4",
+    "react-pose": "^4.0.8",
+    "react-scripts": "2.1.8",
+    "reactjs-popup": "^1.3.2",
+    "video-react": "^0.13.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "description": "A super simple Reactjs app that uses Imdb api to get data",
+  "author": "Reza Hosseini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rezaavoor/ImdbAPI-Reactjs/issues"
+  }
+}

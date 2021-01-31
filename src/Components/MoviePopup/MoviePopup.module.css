@@ -1,0 +1,53 @@
+.main {
+  width: 100%;
+  height: auto;
+  max-height: 90vh;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.image {
+  height: 30%;
+  width: auto;
+  margin: 0 auto;
+}
+.image > img {
+  height: 100%;
+  object-fit: cover;
+}
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+}
+.contentTitle {
+  height: 20%;
+  font-size: 2rem;
+  background-color: pink;
+}
+.contentDescription {
+  height: 40%;
+}
+.contentDetail {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .image > img {
+    width: 100%;
+  }
+  .contentTitle {
+    font-size: 1.2rem;
+  }
+  .contentDescription {
+    font-size: 0.7rem;
+  }
+  .contentDetail {
+    font-size: 2rem;
+  }
+}

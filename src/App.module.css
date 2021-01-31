@@ -1,0 +1,14 @@
+.App {
+  background-color: white;
+  text-align: center;
+  width: 80vw;
+  height: auto;
+  margin: auto;
+}
+.loading {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
